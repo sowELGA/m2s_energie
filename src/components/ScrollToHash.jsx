@@ -1,0 +1,14 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+export default function ScrollToHash() {
+  const { pathname, hash, key } = useLocation();
+  useEffect(() => {
+    if (hash) {
+      requestAnimationFrame(() => document.querySelector(hash)?.scrollIntoView());
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname, hash, key]);
+  return null;
+}

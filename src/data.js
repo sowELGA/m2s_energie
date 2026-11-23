@@ -32,3 +32,15 @@ export const STEPS = [
   { t: "Nous établissons un devis", d: "Un prix clair, annoncé avant le début des travaux." },
   { t: "Nous intervenons", d: "Un travail soigné, aux normes, et un chantier laissé propre." },
 ];
+
+// Photos : mets tes images dans public/realisations/ puis écris le chemin.
+// Exemple : image: "/realisations/chantier-1.jpg"
+// Tant que image est null, "Photo à venir" s'affiche.
+export const REALISATIONS = [
+  { title: "Réalisation 1", category: "Installation bâtiment", image: null },
+  { title: "Réalisation 2", category: "Décoration en lumière", image: null },
+  { title: "Réalisation 3", category: "Câblage", image: null },
+  { title: "Réalisation 4", category: "Dépannage électrique", image: null },
+  { title: "Réalisation 5", category: "Maintenance électrique", image: null },
+  { title: "Réalisation 6", category: "Électricien bâtiment", image: null },
+];
