@@ -1,8 +1,8 @@
 // ====== À MODIFIER ======
 export const SITE = {
   name: "M2S ENERGY",
-  phone: "+221 78 526 91 04",
-  whatsapp: "221785269104",
+  phone: "+221 77 445 52 33",
+  whatsapp: "221774455233",
   email: "mamadouseydous13@gmail.com",
   tiktok: "https://www.tiktok.com/@m2senergy",
   instagram: "https://www.instagram.com/m2s_energy",
