@@ -97,7 +97,7 @@ export default function Header() {
             onClick={() => setOpen(false)}
             className={`rounded-full bg-brand px-5 py-2.5 font-semibold text-ink hover:bg-brand-light ${current === "contact" ? "ring-2 ring-white ring-offset-2 ring-offset-night" : ""}`}
           >
-            Devis gratuit
+            Demander un devis
           </Link>
         </nav>
       </div>
