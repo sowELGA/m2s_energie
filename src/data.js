@@ -37,10 +37,7 @@ export const STEPS = [
 // Exemple : image: "/realisations/chantier-1.jpg"
 // Tant que image est null, "Photo à venir" s'affiche.
 export const MEDIA = [
-  { src: "/mediatheque/01-plafond-led-bleu-mur-decoratif.jpg", title: "Plafond LED bleu et mur décoratif", category: "Décoration en lumière" },
-  { src: "/mediatheque/02-cablage-gaines-orange.jpg", title: "Câblage et gaines électriques", category: "Câblage" },
   { src: "/mediatheque/03-plafond-led-bleu-lustre.jpg", title: "Plafond LED bleu et lustre", category: "Décoration en lumière" },
-  { src: "/mediatheque/04-faux-plafond-spots.jpg", title: "Faux plafond, spots et plafonniers", category: "Décoration en lumière" },
   { src: "/mediatheque/05-mur-lumineux-jaune-bleu.jpg", title: "Mur lumineux jaune et bleu", category: "Décoration en lumière" },
   { src: "/mediatheque/06-facade-eclairage-exterieur.jpg", title: "Éclairage de façade d’immeuble", category: "Installation bâtiment" },
   { src: "/mediatheque/07-horloge-murale-led.jpg", title: "Horloge murale rétroéclairée", category: "Décoration en lumière" },
