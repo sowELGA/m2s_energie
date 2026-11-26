@@ -7,7 +7,7 @@ const links = [
   { to: "/#services", key: "services", label: "Services" },
   { to: "/#lumiere", key: "lumiere", label: "Lumière" },
   { to: "/#methode", key: "methode", label: "Méthode" },
-  { to: "/realisations", key: "realisations", label: "Réalisations" },
+  { to: "/mediatheque", key: "mediatheque", label: "Médiathèque" },
 ];
 
 // Sections de la page d'accueil, dans l'ordre (ce sont les id déjà présents)
@@ -41,7 +41,7 @@ export default function Header() {
     return () => obs.disconnect();
   }, [pathname]);
 
-  const current = pathname === "/realisations" ? "realisations" : section;
+  const current = pathname === "/mediatheque" ? "mediatheque" : section;
 
   return (
     <header
@@ -77,7 +77,7 @@ export default function Header() {
                 onClick={() => setOpen(false)}
                 aria-current={
                   active
-                    ? l.key === "realisations"
+                    ? l.key ==="mediatheque"
                       ? "page"
                       : "location"
                     : undefined

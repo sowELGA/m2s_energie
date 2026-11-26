@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Bolt from "./components/Bolt";
 import ScrollToHash from "./components/ScrollToHash";
 import Home from "./pages/Home";
-import Realisations from "./pages/Realisations";
+import Mediatheque from "./pages/Mediatheque";
 import { SITE } from "./data";
 
 export default function App() {
@@ -14,7 +14,7 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/realisations" element={<Realisations />} />
+          <Route path="/mediatheque" element={<Mediatheque />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
@@ -24,7 +24,7 @@ export default function App() {
             <Bolt className="h-4 text-brand" /> {SITE.name}
           </span>
           <span className="flex flex-wrap gap-5">
-            <Link to="/realisations" className="hover:text-brand">Réalisations</Link>
+            <Link to="/mediatheque" className="hover:text-brand">Médiathèque</Link>
             <a href={SITE.tiktok} target="_blank" rel="noopener noreferrer" className="hover:text-brand">TikTok</a>
             <a href={SITE.instagram} target="_blank" rel="noopener noreferrer" className="hover:text-brand">Instagram</a>
             <span>© {new Date().getFullYear()} {SITE.name}</span>

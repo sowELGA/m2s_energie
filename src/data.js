@@ -36,11 +36,19 @@ export const STEPS = [
 // Photos : mets tes images dans public/realisations/ puis écris le chemin.
 // Exemple : image: "/realisations/chantier-1.jpg"
 // Tant que image est null, "Photo à venir" s'affiche.
-export const REALISATIONS = [
-  { title: "Réalisation 1", category: "Installation bâtiment", image: null },
-  { title: "Réalisation 2", category: "Décoration en lumière", image: null },
-  { title: "Réalisation 3", category: "Câblage", image: null },
-  { title: "Réalisation 4", category: "Dépannage électrique", image: null },
-  { title: "Réalisation 5", category: "Maintenance électrique", image: null },
-  { title: "Réalisation 6", category: "Électricien bâtiment", image: null },
+export const MEDIA = [
+  { src: "/mediatheque/01-plafond-led-bleu-mur-decoratif.jpg", title: "Plafond LED bleu et mur décoratif", category: "Décoration en lumière" },
+  { src: "/mediatheque/02-cablage-gaines-orange.jpg", title: "Câblage et gaines électriques", category: "Câblage" },
+  { src: "/mediatheque/03-plafond-led-bleu-lustre.jpg", title: "Plafond LED bleu et lustre", category: "Décoration en lumière" },
+  { src: "/mediatheque/04-faux-plafond-spots.jpg", title: "Faux plafond, spots et plafonniers", category: "Décoration en lumière" },
+  { src: "/mediatheque/05-mur-lumineux-jaune-bleu.jpg", title: "Mur lumineux jaune et bleu", category: "Décoration en lumière" },
+  { src: "/mediatheque/06-facade-eclairage-exterieur.jpg", title: "Éclairage de façade d’immeuble", category: "Installation bâtiment" },
+  { src: "/mediatheque/07-horloge-murale-led.jpg", title: "Horloge murale rétroéclairée", category: "Décoration en lumière" },
+  { src: "/mediatheque/08-plafond-bandes-led-marbre.jpg", title: "Bandes LED et murs en marbre", category: "Décoration en lumière" },
+  { src: "/mediatheque/09-couloir-bandes-led.jpg", title: "Couloir avec bandes LED et spots", category: "Installation bâtiment" },
+  { src: "/mediatheque/10-plafond-led-jaune-plafonnier.jpg", title: "Plafond LED chaud et plafonnier", category: "Décoration en lumière" },
+  { src: "/mediatheque/11-plafond-led-bleu-plafonnier.jpg", title: "Plafond LED et plafonnier rond", category: "Décoration en lumière" },
+  { src: "/mediatheque/12-suspensions-dorees-led.jpg", title: "Suspensions dorées et bandes LED", category: "Décoration en lumière" },
+  { src: "/mediatheque/13-salon-double-hauteur-led.jpg", title: "Salon double hauteur éclairé en LED", category: "Décoration en lumière" },
+  { src: "/mediatheque/14-plafond-spirale-led-jaune.jpg", title: "Plafond en spirale éclairé en LED", category: "Décoration en lumière" },
 ];
